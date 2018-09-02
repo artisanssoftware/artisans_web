@@ -11,5 +11,5 @@ define('USER','root');
 define('PASS','');define('NEW_CONSTANT','New Worth of Constant')
 define('DB','artisans_software');
 define('MASTER_CONSTANT','Worth Master Constant');
-define('SERVER','http://192.168.0.11/artesanos');
+define('SERVER','http://192.168.0.5/artesanos');
 ?>
