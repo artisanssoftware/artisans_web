@@ -1,0 +1,195 @@
+<section class="service-description">
+    <article class="slider col-md-12">
+        <div>
+            <p>
+                <span data-top="auto,auto" data-right="auto,auto" data-left="-30,2" data-bottom="20,20" data-transform="rotateX(0deg)" data-opacity="1" data-timeout="200" data-timein="100" data-easing="easeOutBounce" data-timeoutout="500" data-transition="0s ease-in" data-background="#ffbf00" data-transformout="rotateX(0deg)">
+                    somos
+                </span>
+                 <span data-top="auto,auto" data-right="auto,auto" data-left="-30,8" data-bottom="20,20" data-transform="rotateX(0deg)" data-opacity="1" data-timeout="300" data-timein="200" data-easing="easeOutBounce" data-timeoutout="500" data-transition="0s ease-in" data-background="blue" data-transformout="rotateX(0deg)">
+                    una 
+                </span>
+            <span data-top="auto,auto" data-right="auto,auto" data-left="-30,12" data-bottom="20,20" data-transform="rotateX(0deg)" data-opacity="1" data-timeout="400" data-timein="300" data-easing="easeOutBounce" data-timeoutout="500" data-transition="0s ease-in" data-background="red" data-transformout="rotateX(0deg)">
+                    empresa
+                </span>
+                 <span data-top="auto,auto" data-right="auto,auto" data-left="-30,19.2" data-bottom="20,20" data-transform="rotateX(0deg)" data-opacity="1" data-timeout="500" data-timein="400" data-easing="easeOutBounce" data-timeoutout="500" data-transition="0s ease-in" data-background="#ffbf00" data-transformout="rotateX(0deg)">
+                    100%
+                </span>
+                 <span data-top="auto,auto" data-right="auto,auto" data-left="-30,24.5" data-bottom="20,20" data-transform="rotateX(0deg)" data-opacity="1" data-timeout="600" data-timein="500" data-easing="easeOutBounce" data-timeoutout="500" data-transition="0s ease-in" data-background="red" data-transformout="rotateX(0deg)">
+                   Colombiana
+                </span>
+
+                <span data-top="-50,5" data-right="auto,auto" data-left="10,12" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="800" data-timein="200" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#1c89bf" data-transformout="rotateX(-360deg)">
+                    La combinacion perfecta
+                </span>
+
+
+                <span data-top="-50,5" data-right="auto,auto" data-left="10,12" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="800" data-timein="200" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#1c89bf" data-transformout="rotateX(-360deg)">
+                    La combinacion perfecta
+                </span>
+
+                <span data-top="-50,15" data-right="auto,auto" data-left="10,12" data-bottom="auto,auto" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="900" data-timein="300" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#000" data-transformout="rotateX(-360deg)">
+                    Seguridad
+                </span>
+
+                <span data-top="15,25" data-right="auto,auto" data-left="150,12" data-bottom="auto,auto" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1000" data-timein="400" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#1c89bf" data-transformout="rotateX(-360deg)">
+                    Diseño
+                </span>
+
+
+                <span data-top="auto,auto" data-right="auto,auto" data-left="10,12" data-bottom="-50,56" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1100" data-timein="500" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#000" data-transformout="rotateX(-360deg)">
+                    Innovacion
+                </span>
+
+                <span data-top="auto,auto" data-right="auto,auto" data-left="10,12" data-bottom="-50,46" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1200" data-timein="600" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#1c89bf" data-transformout="rotateX(-360deg)">
+                    Y calidad
+                </span>
+
+                <img src="https://intellbits.com/assets/images/servicios/apps-moviles-capas.png" />
+            </p>
+        </div>
+        <div>
+            <div>
+                <img src="http://www.minjusticia.gov.co/portals/ninos/Graficos/persojane.hombre.manos.gif.png">
+                <p class="glyphicon glyphicon-chevron-left"></p>
+                <p class="glyphicon glyphicon-chevron-right"></p>
+            </div>
+            <div>
+                <ol>
+                    <li>
+                        <font class="service-title">Sitio Web de Contenidos (Página Web)</font>
+                        <font class="service-price">Entre (900.000 $CO y 1.200.000 $CO)</font>
+                        <ol>
+                            <li>Soporte por 1 mes</li>
+                            <li>Video tutoriales de administración</li>
+                            <li>Paquete de 5 actualizaciones</li>
+                            <li>Responsive Design</li>
+                            <li>Asesoría y ayuda con la redacción de contenidos</li>
+                            <li>Integración con Google Analytics</li>
+                            <li>Formulario de contacto orientado a la conversión</li>
+                            <li>Links a redes sociales</li>
+                            <li>Amigable con SEO</li>
+                            <li>Paquete de Seguridad Web</li>
+                            <li>Hosting y Dominio por 1 año</li>
+                            <li>Espacio en Disco de 2 GB</li>
+                            <li>Cuentas de correo ilimitadas</li>
+                            <li>Diseño Personalizado</li>
+                            <li>Inclusión de 1 Video</li>
+                            <li>Dominio .com o .com.co</li>
+                        </ol>
+                        <a onclick="ligboxForm()">Pedir este servicio [Entrega en 5 Días]</a>
+                    </li>
+                    <li>
+                        <font class="service-title">Sitio e-commerce (Sitios de comercio en linea tipo Lineo.com o Dafity.com)</font>
+                        <font class="service-price">Entre (2.250.000 $CO y 2.500.000 $CO)</font>
+                        <ol>
+                            <li>Soporte por 1 mes</li>
+                            <li>Video tutoriales de administración</li>
+                            <li>Paquete de 10 actualizaciones</li>
+                            <li>Responsive Design</li>
+                            <li>Asesoría y ayuda con la redacción de contenidos</li>
+                            <li>Chat</li>
+                            <li>Integración con Google Analytics</li>
+                            <li>Formulario de contacto orientado a la conversión</li>
+                            <li>Suscripción a boletines</li>
+                            <li>Links a redes sociales</li>
+                            <li>Amigable con SEO</li>
+                            <li>Paquete de Seguridad Web</li>
+                            <li>Hosting y dominio por 1 año</li>
+                            <li>Espacio en Disco de 5 GB</li>
+                            <li>Cuentas de correo ilimitadas</li>
+                            <li>Diseño Personalizado</li>
+                            <li>Inclusión de 1 Video</li>
+                            <li>Dominio .com o .com.co</li>
+                        </ol>
+                        <a onclick="ligboxForm()">Pedir este servicio [Entrega en 8 Días]</a>
+                    </li>
+                    <li>
+                        <font class="service-title">Solución web a la medida </font>
+                        <font class="service-price">Entre (1.650.000 $CO y 2.000.000 $CO)</font>
+                        <ol>
+                            <li>Soporte de 6 mes</li>
+                            <li>Videotutoriales + Capacitación</li>
+                            <li>Responsive Design</li>
+                            <li>Formulario de contacto</li>
+                            <li>Integración con Facebook</li>
+                            <li>Amigable con SEO</li>
+                            <li>Paquete de Seguridad web</li>
+                            <li>Hosting y dominio por 1 año</li>
+                            <li>Espacio en Disco de 5 GB</li>
+                            <li>Cuentas de correo ilimitadas</li>
+                            <li>Diseño 100% Original</li>
+                            <li>Inclusión de 1 Video</li>
+                            <li>Dominio .com o .com.co</li>
+                        </ol>
+                        <a onclick="ligboxForm()">Pedir este servicio [Entrega 12 en Días]</a>
+                    </li>
+                    <li>
+                        <font class="service-title">Landing Page (Recepción de Publicidad)</font>
+                        <font class="service-price">Entre (472.500 $CO y 600.000 $CO)</font>
+                        <ol>
+                            <li>Video tutoriales de administración</li>
+                            <li>Responsive Design</li>
+                            <li>Integración con Google Analytics</li>
+                            <li>Formulario de contacto orientado a la conversión</li>
+                            <li>Amigable con SEO</li>
+                            <li>Paquete de Seguridad Web</li>
+                            <li>Hosting y Dominio</br>por 1 año</li>
+                            <li>Espacio en Disco de 1 GB</li>
+                            <li>Cuentas de Correo Ilimitadas</li>
+                            <li>Diseño Personalizado</li>
+                            <li>Inclusión de 1 Video</li>
+                            <li>Dominio .com o .com.co</li>
+                        </ol>
+                        <a onclick="ligboxForm()">Pedir este servicio [Entrega 3 en Días]</a>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <img src="<?=$this->imgSources?>logo2.png" />
+            <p>
+                <input type="text" placeholder="Digita en este campo lo que desees buscar :)">
+                <button>Buscar</button>
+            </p>
+        </div>
+        <a class="control-left">
+            <div>
+                <img>
+                <p class="glyphicon glyphicon-chevron-left"></p>
+            </div>
+        </a>
+        <a class="control-right">
+            <div>
+                <img>
+                <p class="glyphicon glyphicon-chevron-right"></p>
+            </div>
+        </a>
+    </article>
+    <div class="container">
+        <article class="col-md-8">
+            <h1>DISEÑO WEB</h1>
+            <h3>
+            <font class="big-letter">L</font>a presencia en <font class="key-word">WEB</font> en la actualidad es algo prácticamente obligatorio para cualquier empresa o negocio que desee crecer e inclusive internacionalizarse, un paso importante es que el empresario tome la decisión de comenzar su presencia en <font class="key-word">WEB</font>, pero un paso aún más importante es seleccionar la empresa que se encargará de convertir tu idea de negocio en un proyecto real y rentable, la ley de oferta y demanda hoy y siempre ha regido el rumbo de los negocio por lo cual hace que tengas en este momento cientos de ofertas similares para el desarrollo de tu sitio <font class="key-word">WEB</font>, per la gran pregunta es de tantas que tengo en este momento.
+            <font class="jump"></font>
+            <font class="argument">¿ Porque trabajar con  Artisans Software ? </font>
+            <font class="jump"></font>
+            <font class="big-letter">L</font>a respuesta es sencilla aunque la pregunta parezca algo compleja de tantas opciones <font class="company">Artisans Software</font> es la mejor opción pues tenemos cientos de paquetes que se ajustan a cualquier presupuesto sin importan si eres una gran multinacional o apenas eres un emprendedor que busca materializar una idea de negocio.
+            <font class="jump"></font>
+            <font class="big-letter">N</font>osotros no solo hacemos páginas <font class="key-word">WEB</font> simples planas y sin un objetivo nosotros nos preocupamos por hacer proyectos exitosos a la vanguardia de la tecnología sitios que no tengan nada que envidiar a ningún otro sitio web nuestra mayor satisfacción es que nuestros clientes estén satisfechos con el servicio, pues de no ser así nuestro trabajo no tendría sentido.
+            <font class="jump"></font>
+            <font class="big-letter">P</font>oseemos profesionales de primera línea, certificados por empresas como <font class="company-reference">ORACLE, GOOGLE, MICROSOFT</font> entre otros, lo que te brinda la seguridad de que <font class="company">Artisans Software</font> es una empresa que nunca improvisa, si no te gustan los paquetes que ves en pantalla puedes contactarnos directamente y crearemos un paquete completamente personalizado solo para ti.
+            <font class="jump"></font>
+            <font class="argument">¿ Aun no haces parte de nuestra empresa ?</font>
+            <font class="jump"></font>
+            <font class="big-letter">Q</font>ue esperas </font> estás a punto de comenzar tu presencia en <font class="key-word">Web</font> trabajando con los mejores, tienes todas las opciones puedes contactarnos por <font class="contact-us">info@artesanossoftware.org</font>, puedes llamarnos directamente desde este sitio web <font class="contact-us">totalmente gratis</font> o contactarnos al <font class="contact-us">pbx: 378 40 37 cel.corporativo: 312 442 11 62.</font>
+        </h3>
+        <img src="https://cirujanos-plasticos.com.co/wp-content/uploads/2017/07/metodos-de-pago-por-payu.png">
+        </article>
+        <article class="col-md-4">
+        </article>
+    </div>
+</section>

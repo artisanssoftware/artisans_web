@@ -1,0 +1,49 @@
+ <p>
+                <span data-top="2,2" data-right="auto,auto" data-left="-30,66.6" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="200" data-timein="100" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#ffbf00" data-transformout="rotate(-360deg)">
+                    somos
+                </span>
+                 <span data-top="2,2" data-right="auto,auto" data-left="-30,72.5" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="300" data-timein="200" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="blue" data-transformout="rotate(-360deg)">
+                    una 
+                </span>
+            <span data-top="2,2" data-right="auto,auto" data-left="-30,76.5" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="400" data-timein="300" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="red" data-transformout="rotate(-360deg)">
+                    Agencia
+                </span>
+                 <span data-top="2,2" data-right="auto,auto" data-left="-30,83.3" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="500" data-timein="400" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#ffbf00" data-transformout="rotate(-360deg)">
+                    100%
+                </span>
+                 <span data-top="2,2" data-right="auto,auto" data-left="-30,88.6" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="600" data-timein="500" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="red" data-transformout="rotate(-360deg)">
+                   Colombiana
+                </span>
+
+                <span data-top="-50,5" data-right="auto,auto" data-left="10,6" data-bottom="auto,auto" data-transform="rotate(360deg)" data-opacity="1" data-timeout="600" data-timein="200" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#477cc5" data-transformout="rotateX(-360deg)">
+                    Buscas hacer crecer tu negocio ?
+                </span>
+
+
+                <span data-top="-50,16" data-right="auto,auto" data-left="10,6" data-bottom="auto,auto" data-transform="rotate(0deg)" data-opacity="1" data-timeout="800" data-timein="200" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#383838" data-transformout="rotateX(0deg)">
+                    Eres una empresa bien contituida ?
+                </span>
+
+                <span data-top="-50,27" data-right="auto,auto" data-left="10,6" data-bottom="auto,auto" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="900" data-timein="300" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#46ac2a" data-transformout="rotateX(-360deg)">
+                    O tal vez eres un nuevo emprendedor ?
+                </span>
+
+                <span data-top="38,38" data-right="auto,auto" data-left="150,6" data-bottom="auto,auto" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1000" data-timein="400" data-easing="easeOutBounce" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#477cc5" data-transformout="rotateX(-360deg)">
+                    Cualquiera que sea el caso
+                </span>
+
+
+                <span data-top="auto,auto" data-right="auto,auto" data-left="10,6" data-bottom="-50,42" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1100" data-timein="500" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#383838" data-transformout="rotateX(-360deg)">
+                    Nuestros expertos
+                </span>
+
+                 <span data-top="auto,auto" data-right="auto,auto" data-left="10,6" data-bottom="-50,31.4" data-transform="rotateX(360deg)" data-opacity="1" data-timeout="1200" data-timein="600" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="#46ac2a" data-transformout="rotateX(-360deg)">
+                    Estan a tu dispocicion
+                </span>
+
+                <span data-top="auto,auto" data-right="auto,auto" data-left="43,43" data-bottom="-50,58" data-transform="scale(2.5,2.5) rotate(360deg)" data-opacity="1" data-timeout="1300" data-timein="700" data-easing="easeInOutBack" data-timeoutout="500" data-transition="all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55)" data-background="rgba(0,0,0,0)" data-transformout="scale(0,0) rotate(-360deg)">
+                    <a href="../home"><img src="<?=$this->imgSources?>logo2.png" width="100"/></a>
+                </span>
+
+                <img data-headerlogo="#fff" data-headerlogodes="#fff" data-header="#304d8f" data-headertext="#fff" data-weightheader="400" data-btnservice="#46ac2a" data-ligboxform="#0b2a6a" data-ligboxbth="#187ed6" data-ligboxborder="#fff" data-footer="#000" data-footerbtn="#187ed6" data-footerborder="#187ed6" data-controls="#004a69" data-controlspck="#ccc" src="https://d2jljza7x0a5yy.cloudfront.net/media/k2/items/cache/50974e1c40bcd0fafe30b206bf3f82ef_XL.jpg?t=1474022753" />
+            </p>

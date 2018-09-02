@@ -1,0 +1,193 @@
+    <div class="header">
+      <div class="bg-color">
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="banner-info text-center wow fadeIn delay-05s">
+                <h1 class="bnr-title">
+                  <?=$this->model->getText()->bienvenida?>
+                </h1>
+                <h2 class="bnr-sub-title" id="dinamicText">
+                  <?=$this->model->getText()->dinamictext?>
+                </h2>
+                <p class="bnr-para" id="dinamicTextDesc">
+                  <?=$this->model->getText()->headertext?>
+                </p>
+                <div class="brn-btn">
+                  <a href="portaldeservicios" class="btn btn-download" id="cotizar">
+                    <?=$this->model->getText()->btn_servicios?>
+                  </a>
+                  <a data-href="contacto" onclick="ligboxForm()" class="btn btn-more " id="contactar">
+                    <?=$this->model->getText()->btn_contactar?>
+                  </a>
+                </div>
+                <div class="overlay-detail">
+                  <a data-href="quienessomos" onclick="goIt(this,'')"><i class="fa fa-angle-down"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="quienessomos"></div>
+    <section id="service" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">
+              <?=$this->model->getText()->text_quienes_somos?>
+            </h2>
+            <p class="sub-title pad-bt15">
+              <?=$this->model->getText()->text_quienes_somos_desc?>
+            </p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>
+                <?=$this->model->getText()->text_desarrollo?>
+              </h3>
+              <p>
+                <?=$this->model->getText()->text_desarrollo_desc?>
+              </p>
+              <a href="portaldeservicios/descripcion/Web">
+                <?=$this->model->getText()->btn_saber_mas?>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>
+                <?=$this->model->getText()->text_consultoria?>
+              </h3>
+              <p>
+                <?=$this->model->getText()->text_consultoria_desc?>
+              </p>
+              <a href="portaldeservicios/descripcion/Consultoria">
+                <?=$this->model->getText()->btn_saber_mas?>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>
+                <?=$this->model->getText()->text_software?>
+              </h3>
+              <p>
+                <?=$this->model->getText()->text_software_desc?>
+              </p>
+              <a href="portaldeservicios/descripcion/Mantenimiento">
+                <?=$this->model->getText()->btn_saber_mas?>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="service-item">
+              <h3>
+                <?=$this->model->getText()->text_marketing?>
+              </h3>
+              <p>
+                <?=$this->model->getText()->text_marketing_desc?>
+              </p>
+              <a href="portaldeservicios/descripcion/Maketing">
+                <?=$this->model->getText()->btn_saber_mas?>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portafolio" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2 class="service-title pad-bt15">
+              <?=$this->model->getText()->text_exito?>
+            </h2>
+            <p class="sub-title pad-bt15">
+              <?=$this->model->getText()->text_exito_desc?>
+            </p>
+            <hr class="bottom-line">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="<?=$this->imgSources?>11.png" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_conequipos?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_conequipos_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="<?=$this->imgSources?>10.png" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_uninca?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_uninca_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="<?=$this->imgSources?>7.png" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_petronorte?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_petronorte_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="<?=$this->imgSources?>5.png" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_mlife?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_mlife_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="<?=$this->imgSources?>8.png" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_bolivar?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_bolivar_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 portafolio-item padding-right-zero mr-btn-15">
+            <figure>
+              <img src="https://odoocdn.com/openerp_website/static/src/img/2018/crm/crm_screenshot_01.gif" style="height:240px; padding:5px;" class="img-responsive">
+              <figcaption>
+                <h2>
+                  <?=$this->model->getText()->proyect_pacific?>
+                </h2>
+                <p>
+                  <?=$this->model->getText()->proyect_pacific_desc?>
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>

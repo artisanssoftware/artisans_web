@@ -1,0 +1,151 @@
+<div class="ligbox-form">
+  <div id="particles-js"></div>
+  <div>
+    
+    <div class="content">
+      <img src="<?=$this->view->imgSources?>logo-white.png" style="max-width:200px;" class="logo"/>
+      <h1>
+        <?=$this->view->model->getText()->text_contacto?>
+      </h1>
+      <h2 class="sub-title pad-bt15">
+              <?=$this->view->model->getText()->text_contacto_desc?>
+            </h2>
+      <form action="javascript:void(0);" method="post" onsubmit="return form(this)">
+        <p>
+          <label for="fullname"><?=$this->view->model->getText()->lbl_fullname?></label>
+            <input name="fullname" data-msg="<?=$this->view->model->getText()->data_msg_fullname?>" data-required="true" type="text" placeholder="<?=$this->view->model->getText()->holder_fullname?>"/>
+          <span id="fullname"></span>
+        </p>
+        <p>
+          <label for="email"><?=$this->view->model->getText()->lbl_correo?></label>
+            <input type="text" name="email" data-msg="<?=$this->view->model->getText()->data_msg_correo?>" data-required="true" placeholder="<?=$this->view->model->getText()->holder_correo?>"/>
+          <span id="email"></span>
+        </p>
+        <p>
+          <label for="phone"><?=$this->view->model->getText()->lbl_telefono?></label>
+            <input type="text" name="phone" data-msg="<?=$this->view->model->getText()->data_msg_telefono?>" data-required="true" placeholder="<?=$this->view->model->getText()->holder_telefono?>"/>
+          <span id="phone"></span>
+        </p>
+        <p>
+          <label for="message"><?=$this->view->model->getText()->lbl_mensaje?></label>
+            <textarea type="text" name="message" data-msg="<?=$this->view->model->getText()->data_msg_mensaje?>" data-required="false" placeholder="<?=$this->view->model->getText()->holder_mensaje?>"></textarea>
+          <span id="message"></span>
+        </p>
+        <p>
+          <button type="submit"><?=$this->view->model->getText()->btn_pedir_informacion?></button>
+        </p>
+
+      <span class="ui-icon-close glyphicon glyphicon-remove" onclick="ligboxFormHide()"></span>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <section id="contacto" class="section-padding wow fadeInUp delay-05s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center white">
+            <h2 class="service-title pad-bt15">
+              <?=$this->view->model->getText()->text_contacto?>
+            </h2>
+            <p class="sub-title pad-bt15">
+              <?=$this->view->model->getText()->text_contacto_desc?>
+            </p>
+            <hr class="bottom-line white-bg">
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="loction-info white">
+              <p>
+                <i class="fa fa-phone fa-fw pull-left fa-2x"></i>
+                <?=$this->view->model->getText()->text_telefonos?>
+              </p>
+              <p>
+                <i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>
+                <?=$this->view->model->getText()->text_direccion?>
+              </p>
+              <p>
+                <i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>
+                <?=$this->view->model->getText()->text_correo_info?>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="contacto-form">
+              <form onsubmit="return form(this)"method="post" role="form" class="contactForm">
+                <div class="col-md-6 padding-right-zero">
+                  <div class="form-group">
+                    <input type="text" name="name" data-required="true" class="form-control" id="name" placeholder="<?=$this->view->model->getText()->holder_fullname?>" data-rule="minlen:4" data-msg="<?=$this->view->model->getText()->data_msg_fullname?>" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" data-required="true" name="email" id="email" placeholder="<?=$this->view->model->getText()->holder_correo?>" data-rule="email" data-msg="<?=$this->view->model->getText()->data_msg_correo?>" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" data-required="true" data-rule="required" name="phone" id="phone" placeholder="<?=$this->view->model->getText()->holder_telefono?>" data-rule="phone" data-msg="<?=$this->view->model->getText()->data_msg_telefono?>" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" data-required="false" name="message" rows="5" data-rule="required" data-msg="<?=$this->view->model->getText()->data_msg_mensaje?>" placeholder="<?=$this->view->model->getText()->holder_mensaje?>"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                  <button type="submit" id="sendForm" class="btn btn-primary btn-submit"><?=$this->view->model->getText()->btn_pedir_informacion?></button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <p>&copy; Todos los Derechos son Reservados.</p>
+          <div class="credits">
+            Para: <a data-href="home" onclick="goIt(this,'<?=$this->view->location?>')"><?=$this->view->model->getText()->artesanos?> <?=$this->view->model->getText()->software?></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+<div class="injectCss"></div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="<?=$this->view->libs;?>js/jquery.easing.min.js"></script>
+<script src="<?=$this->view->libs;?>js/bootstrap.min.js"></script>
+<script src="<?=$this->view->libs;?>js/jquery.bxslider.min.js"></script>
+<script src="<?=$this->view->libs;?>particles.js"></script>
+<script src="<?=$this->view->libs;?>js/app.js"></script>
+<script src="<?=$this->view->libs;?>js/lib/stats.js"></script>
+<script src="<?=$this->view->libs;?>js/lib/stats.js"></script>
+<script src='<?=$this->view->libs;?>js/lib/anime.min.js'></script>
+<script src='<?=$this->view->libs;?>js/lib/particles.js'></script>
+<script src='<?=$this->view->libs;?>js/lib/demo.js'></script>
+<script>
+var settings = {
+                images:<?=$this->view->model->getTextByKey("array_background_dinamic")?>,
+                text:<?=$this->view->model->getTextByKey("array_header_dinamic")?>,
+                delay: 6000
+        };
+</script>
+<script src="<?=$this->view->libs;?>js/wow.js"></script>
+<script type="text/javascript">
+//START PRELOAD PAGE
+preLoad('<?=$this->view->libs;?>');
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<?php foreach ($this->model->search() as $key => $value) { ?>
+<section class="service-description">
+    <article class="slider col-md-12">
+        <div>
+            <?=$value->images?>
+        </div>
+        <div>
+            <div>
+                <p class="glyphicon glyphicon-chevron-left"></p>
+                <p class="glyphicon glyphicon-chevron-right"></p>
+            </div>
+            <div>
+                <?=$value->service_include?>
+            </div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <p>
+                <input type="text" placeholder="<?=$this->model->getText()->search_description?>">
+                <button class="glyphicon glyphicon-search"></button>
+            </p>
+        </div>
+        <a class="control-left">
+            <div>
+                <img>
+                <p class="glyphicon glyphicon-chevron-left"></p>
+            </div>
+        </a>
+        <a class="control-right">
+            <div>
+                <img>
+                <p class="glyphicon glyphicon-chevron-right"></p>
+            </div>
+        </a>
+    </article>
+    <div class="container">
+        <article class="col-md-8">
+            <?=$value->description?>
+        </article>
+        <article class="col-md-4">
+        </article>
+    </div>
+    <img src="<?=$this->model->getText()->img_buy_options?>" style="display:block;margin:0 auto;margin-top:30px;position:relative;z-index:10;">
+</section>
+<?php }?>
